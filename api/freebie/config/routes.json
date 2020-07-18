@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/freebies",
+      "handler": "freebie.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/freebies/count",
+      "handler": "freebie.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/freebies/:id",
+      "handler": "freebie.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/freebies",
+      "handler": "freebie.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/freebies/:id",
+      "handler": "freebie.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/freebies/:id",
+      "handler": "freebie.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

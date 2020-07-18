@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lectures",
+  "info": {
+    "name": "lecture"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
