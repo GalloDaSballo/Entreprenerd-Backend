@@ -23,16 +23,8 @@
       "plugin": "upload",
       "required": false
     },
-    "file": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
+    "file_url": {
+      "type": "string"
     }
   }
 }
