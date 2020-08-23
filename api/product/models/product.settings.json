@@ -31,6 +31,12 @@
     },
     "meta_title": {
       "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "qty": {
+      "type": "biginteger"
     }
   }
 }
