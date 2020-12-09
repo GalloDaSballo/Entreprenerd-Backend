@@ -25,6 +25,12 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "meta_title": {
+      "type": "text"
+    },
+    "meta_description": {
+      "type": "text"
     }
   }
 }
